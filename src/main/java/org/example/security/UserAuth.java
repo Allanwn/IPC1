@@ -26,14 +26,14 @@ public class UserAuth {
             System.out.print("Ingrese usuario: ");
             String username = scanner.nextLine();
 
-            System.out.print("Ingrese contraseña: ");
+            System.out.print("Ingrese contrasena: ");
             String password = scanner.nextLine();
 
             if (authenticate(username, password)) {
                 System.out.println("Acceso concedido! Bienvenido al sistema, Sensei.");
                 return true;
             } else {
-                System.out.println("Error: Usuario o contraseña incorrectos. Intente nuevamente.");
+                System.out.println("Error: Usuario o contrasena incorrectos. Intente nuevamente.");
             }
         }
     }
